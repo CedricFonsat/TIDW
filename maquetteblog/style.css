@@ -1,0 +1,224 @@
+  *{
+    margin: 0;
+    padding: 0;
+    /**border: 1px solid;*/
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  
+  }
+
+  /*******header ********/
+
+  nav{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  header nav a{
+    color: black;
+  }
+  header{
+    text-align: center;
+  }
+  header h1{
+    margin: 30px;
+  }
+  header h4{
+    margin: 20px;
+    margin-bottom: 60px;
+  }
+  header h4 span{
+   background-color: black;
+   color: white;
+   padding: 4px;
+  }
+
+
+
+  /********** main ***********/
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .left img{
+    width: 100%;
+  }
+  .left{
+    width: 60%;
+    margin: 10px;
+  }
+  .right{
+    width: 28%;
+    margin: 10px;
+  }
+  .left .bottom{
+    margin-top: 20px;
+  }
+  .bottom h3,h2{
+    margin-bottom: 20px;
+  }
+  .bottom{
+    box-shadow: 1px 1px 12px #555;
+  }
+  .bottom div{
+    margin: 10px;
+  }
+  .bottom div a{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  .top{
+    box-shadow: 1px 1px 12px #555;
+  }
+  .top div{
+    margin: 10px;
+  }
+  .top div a{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  .top h3,h2{
+    margin-bottom: 20px;
+  }
+  .right img{
+    width: 100%;
+  }
+  .top h3 span{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(128, 128, 128, 0.61);
+  }
+  .bottom h3 span{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(128, 128, 128, 0.61);
+  }
+  .post div img{
+  width: 15%;
+  margin: 6px;
+  }
+  .minipost{
+    display: flex;
+  }
+  .post{
+    margin-top: 20px;
+    box-shadow: 1px 1px 12px #555;
+  
+  }
+  .tags{
+    margin-top: 20px;
+    box-shadow: 1px 1px 12px #555;
+  }
+  .name{
+    padding: 15px;
+  }
+  .name h2{
+
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  .name p{
+   margin-top: 20px;
+  }
+  .boxname{
+    box-shadow: 1px 1px 12px #555;
+  }
+  .tags{
+    padding-bottom: 10px;
+  }
+  .ph3{
+    background-color: rgba(128, 128, 128, 0.315);
+    height: 26px;
+    padding: 13px;
+  }
+  .tags .travel {
+    margin: 8px;
+    background-color: rgb(46, 6, 6);
+    color: white;
+    line-height: 30px;
+   padding: 1px 5px 1px 5px;
+  }
+  .tags a{
+    background-color: rgba(0, 0, 0, 0.068);
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    margin: 2px;
+    line-height: 35px;
+
+  }
+  .tittle{
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 13px 0 13px 13px;
+    margin-bottom: 10px;
+    display: block;
+  }
+ .minitag{
+   margin: 10px 10px 20px 10px;
+ }
+
+.minipost div h3, p{
+  padding: 7px 0 8px 10px;
+}
+.minipost{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+  margin: 0;
+  width: 100%;
+}
+
+
+
+  /******* footer *********/
+
+footer {
+   background-color: grey;
+   padding: 30px;
+ }
+footer a{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+footer p{
+  margin: 50px;
+  color: white;
+}
+footer .left{
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+
+
+  /******part testing css****/
+
+/*
+  a, p{
+    border: 1px solid;
+  }
+
+  */
+
+  .bottom a{
+    text-decoration: none;
+    background-color: rgba(167, 167, 167, 0.123);
+    padding: 10px;
+    color: black;
+  }
+  .top a{
+    text-decoration: none;
+    background-color: rgba(167, 167, 167, 0.123);
+    padding: 10px;
+    color: black;
+  }
+  .comments{
+    display: inline-block;
+    margin: 20px;
+    margin-left: 70%;
+  }
+  .comments span{
+    background-color: black;
+    color: white;
+    padding: 0 5px 0 5px;
+  }
+  .bottom div .comments span{
+    border-radius: 50%;
+  }
